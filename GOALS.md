@@ -20,7 +20,7 @@ Individuals who want to understand and plan their own money. We start with peopl
 - **Deterministic.** The same input gives the same result. The tools never call an LLM; agents supply the judgement (cli ADR 0001).
 - **Pure core packages.** The ledger, tax and simulation cores do no I/O and read no clock (cli ADR 0006), so any app can reuse them.
 
-## Goal until 31 December 2026
+## Goals until 31 December 2026
 
 **G1. By 31 December 2026, at least 10 people other than the owner use `traj` on their own money every week.**
 
@@ -36,6 +36,10 @@ Individuals who want to understand and plan their own money. We start with peopl
   - **20 December 2026.** 6 people.
   - **31 December 2026.** 10 people.
 - If the owner finds a checkpoint missed, stop adding features and find out what stops people from using `traj`.
+
+**G2. By 31 December 2026, the `trajectonomics/cli` repository has about 100 GitHub stars, and the owner uses `traj` every day.** This is the success line in cli ADR 0002. It is a second goal beside G1, not a replacement.
+
+- An idea serves G2 when it makes `traj` easier to find or worth a star, or makes it work better for the owner's own daily use.
 
 ## Crazy but welcome
 
