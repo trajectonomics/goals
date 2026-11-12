@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "skills": {
+    "goal-setting-okrs": {
+      "source": "RefoundAI/lenny-skills",
+      "sourceType": "github",
+      "skillPath": "skills/goal-setting-okrs/SKILL.md",
+      "computedHash": "664e3b23991f7c42e00a38b030cbb6af280cf8c987f67d60252182a5c49e3c7a"
+    }
+  }
+}
